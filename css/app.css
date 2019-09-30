@@ -1,0 +1,27 @@
+.margin {
+	margin: 1em 3em;
+}
+
+header{
+	text-align: center;
+	color: #F9C80E;
+}
+
+
+/*header .menu {
+
+}*/
+
+body {
+	background-color: #241734;
+	color: #F9C80E;
+}
+
+body .article, .introduction {
+	vertical-align: center;
+
+}
+
+.article {
+	min-width: 200px
+}
