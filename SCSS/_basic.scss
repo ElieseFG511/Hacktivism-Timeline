@@ -1,5 +1,12 @@
-.margin {
-	margin: 1em 3em;
+.introduction {
+	margin: 5em 3em;
+	max-width: 40em;
+	align-content: right;	
+}
+
+.article {
+	margin: 12em 3em;
+	min-width: 200px;
 }
 
 /*header .menu {
@@ -13,9 +20,4 @@ body {
 
 body .article, .introduction {
 	vertical-align: center;
-
-}
-
-.article {
-	min-width: 200px
 }
