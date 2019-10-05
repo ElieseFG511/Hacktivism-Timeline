@@ -32,7 +32,7 @@ body .article, .introduction {
 	vertical-align: center;
 }
 
-body img {
+body .article img {
 	width: 200px;
 	height: 200px;
 }
@@ -47,8 +47,10 @@ body img {
 }
 
 @media (min-width: 40em) {
-	body img {
+	body .timeline-item img {
 		width: 400px;
 		height: 400px;
 	}
+
+
 }

@@ -2,25 +2,24 @@
 header{
 	text-align: center;
 	background-color: #2DE2E6;
-	padding: 2em 0;
+	padding: .75em 0;
 }
 
 header h1, a {
-	color: #FD1D53;
+	color: #241734;
 }
 
 header menu-div {
 	text-align: center;
 }
 
-header li a {
-	margin: -.125em;
-}
-
 header li a:hover {
 	color: #241734;
 	background-color: #F9C80E;
-	padding: 0 -5em;
+}
+
+header img {
+	width: 150px;
 }
 
 @media (min-width: 80em) {
@@ -30,4 +29,5 @@ header li a:hover {
 	header a {
 		text-align: right;
 	}
+
 }
