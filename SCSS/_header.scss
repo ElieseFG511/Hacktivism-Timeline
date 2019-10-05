@@ -23,7 +23,7 @@ header li a:hover {
 	padding: 0 -5em;
 }
 
-@media (min-width: 80em) {
+@media (max-width: 80em) {
 	header h1 {
 	text-align: left;
 	}
