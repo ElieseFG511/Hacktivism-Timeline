@@ -4,7 +4,7 @@ body {
 	color: #F9C80E;
 }
 
-li {
+li { 
 	list-style: none;
 }
 
@@ -43,10 +43,10 @@ body img {
 }
 
 .anchor-target {
-	padding: 3em 0;
+	padding: 5em 0;
 }
 
-@media (max-width: 40em) {
+@media (min-width: 40em) {
 	body img {
 		width: 400px;
 		height: 400px;
