@@ -17,14 +17,15 @@ h2 {
 }
 
 h3 {
-	font-size: 23px;
+	font-size: 18px;
+	font-weight: 700;
 }
 
 p {
 	font-size: 18px;
 }
 
-h1, h2, p {
+h1, h2, h3, p, a {
 	font-family: base-mono-narrow, monospace;
 }
 
@@ -35,6 +36,10 @@ body .article, .introduction {
 body .article img {
 	width: 200px;
 	height: 200px;
+}
+
+.continue-status {
+	text-align: center;
 }
 
 .selected {
