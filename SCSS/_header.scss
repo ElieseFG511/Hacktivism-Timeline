@@ -1,7 +1,6 @@
 
 header{
 	text-align: center;
-	color: #F9C80E;
 	background-color: #2DE2E6;
 	padding: 2em 0;
 }
@@ -21,6 +20,7 @@ header li a {
 header li a:hover {
 	color: #241734;
 	background-color: #F9C80E;
+	padding: 0 -5em;
 }
 
 @media (min-width: 80em) {

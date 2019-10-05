@@ -16,6 +16,10 @@ h2 {
 	font-size: 35px;
 }
 
+h3 {
+	font-size: 23px;
+}
+
 p {
 	font-size: 18px;
 }
@@ -31,6 +35,15 @@ body .article, .introduction {
 body img {
 	width: 200px;
 	height: 200px;
+}
+
+.selected {
+	color: #791E94;
+	background-color: #F9C80E;
+}
+
+.anchor-target {
+	padding: 3em;
 }
 
 @media (min-width: 40em) {
