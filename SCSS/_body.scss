@@ -1,0 +1,41 @@
+
+body {
+	background-color: #241734;
+	color: #F9C80E;
+}
+
+li {
+	list-style: none;
+}
+
+h1 {
+	font-size: 44px;
+}
+
+h2 {
+	font-size: 35px;
+}
+
+p {
+	font-size: 18px;
+}
+
+h1, h2, p {
+	font-family: base-mono-narrow, monospace;
+}
+
+body .article, .introduction {
+	vertical-align: center;
+}
+
+body img {
+	width: 200px;
+	height: 200px;
+}
+
+@media (min-width: 40em) {
+	body img {
+		width: 400px;
+		height: 400px;
+	}
+}
