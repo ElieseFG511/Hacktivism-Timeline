@@ -1,16 +1,12 @@
 
 header{
 	text-align: center;
-	background-color: #2DE2E6;
+	background-color: $light-blue;
 	padding: .75em 0;
 }
 
-// .logo a:hover {
-	
-// }
-
 header h1, a {
-	color: #241734;
+	color: $dark-purple;
 }
 
 header menu-div {
@@ -18,12 +14,11 @@ header menu-div {
 }
 
 header li a:hover {
-	color: #241734;
-	background-color: #F9C80E;
+	background-color: $body-yellow;
 }
 
 header img {
-	width: 150px;
+	width: $header-img;
 }
 
 @media (min-width: 80em) {

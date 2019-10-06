@@ -1,0 +1,22 @@
+// Typography
+
+h1 {
+	font-size: $type-h1;
+}
+
+h2 {
+	font-size: $type-h2;
+}
+
+h3 {
+	font-size: $type-h3-p;
+	font-weight: 700;
+}
+
+p {
+	font-size: $type-h3-p;
+}
+
+h1, h2, h3, p, a {
+	font-family: $type-style;
+}
