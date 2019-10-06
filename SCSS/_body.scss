@@ -15,8 +15,9 @@ body .article, .introduction {
 body .article img {
 	width: $body-mobile;
 	height: $body-mobile;
+	align: center;
+	margin-bottom: 2em;
 }
-
 
 // Misc classes
 .continue-status {
@@ -28,12 +29,9 @@ body .article img {
 	background-color: $body-yellow;
 }
 
-
 @media (min-width: 40em) {
 	body .timeline-item img {
 		width: $body-comp;
 		height: $body-comp;
 	}
-
-
 }
