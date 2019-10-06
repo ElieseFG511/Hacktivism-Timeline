@@ -5,7 +5,7 @@ h1 {
 }
 
 h2 {
-	font-size: $type-h2;
+	font-size: $mobile-type-h2;
 }
 
 h3 {
@@ -14,9 +14,21 @@ h3 {
 }
 
 p {
-	font-size: $type-h3-p;
+	font-size: $mobile-type-p;
 }
 
 h1, h2, h3, p, a {
 	font-family: $type-style;
+}
+
+@media (min-width: 40em) {
+
+	h2 {
+		font-size: $type-h2;
+	}
+
+	p {
+		font-size: $type-h3-p;
+	}
+
 }
