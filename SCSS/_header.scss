@@ -18,10 +18,16 @@ header li a:hover {
 }
 
 header img {
-	width: $header-img;
+	width: $mobile-header-img;
 }
 
-@media (min-width: 80em) {
+@media (min-width: 40em) {
+	header img {
+	width: $header-img;
+	} 
+}
+
+@media (min-width: 40em) {
 	header h1 {
 	text-align: left;
 	}
