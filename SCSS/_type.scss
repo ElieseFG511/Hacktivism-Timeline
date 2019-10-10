@@ -9,7 +9,7 @@ h2 {
 }
 
 h3 {
-	font-size: $type-h3-p;
+	font-size: $type-h3;
 	font-weight: 700;
 }
 
@@ -27,8 +27,12 @@ h1, h2, h3, p, a {
 		font-size: $type-h2;
 	}
 
+	h3 {
+		font-size: $type-h3
+	}
+
 	p {
-		font-size: $type-h3-p;
+		font-size: $type-p;
 	}
 
 }

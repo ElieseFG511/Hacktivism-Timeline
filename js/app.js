@@ -1,13 +1,13 @@
 $(document).foundation();
 
-$('nav a').click(function(event){
+$('a').click(function(event){
   
   // prevent defalt click behavior
   // don't jump to content
   event.preventDefault();
 
   // remove "selected" class from all links
-  $('nav a').removeClass('selected');
+  $('a').removeClass('selected');
 
   // add "selected" class to the link that was just selected
   $(this).addClass('selected');
@@ -26,3 +26,15 @@ $('nav a').click(function(event){
 // I tried writing this code for a couple hours by hand
 // it sucked and I couldn't get the hang of it so I just
 // Copy pasted it
+
+//Drop Down menu
+// $('body').addClass('js');
+  
+// var $menu = $('#menu'),
+//     $menulink = $('.menu-link');
+  
+// $menulink.click(function() {
+//   $menulink.toggleClass('active');
+//   $menu.toggleClass('active');
+//   return false;
+// });

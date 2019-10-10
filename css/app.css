@@ -5,7 +5,7 @@ h2 {
   font-size: 23px; }
 
 h3 {
-  font-size: 18px;
+  font-size: 23px;
   font-weight: 700; }
 
 p {
@@ -18,11 +18,21 @@ h1, h2, h3, p, a {
   h2 {
     font-size: 35px; }
 
+  h3 {
+    font-size: 23px; }
+
   p {
     font-size: 18px; } }
 .introduction {
   margin: 2em;
   height: 100vh; }
+  .introduction a {
+    color: #180f24;
+    background-color: #FD1D53;
+    padding: 0 1%; }
+  .introduction a:hover {
+    color: #FD1D53;
+    background-color: #301e48; }
 
 @media (min-width: 40em) {
   .introduction {
@@ -60,11 +70,8 @@ header img {
   header img {
     width: 250px; } }
 @media (min-width: 40em) {
-  header h1 {
-    text-align: left; }
-
-  header a {
-    text-align: right; } }
+  ul {
+    margin: auto; } }
 body {
   background-color: #180f24;
   color: #F9C80E; }

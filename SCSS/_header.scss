@@ -28,11 +28,7 @@ header img {
 }
 
 @media (min-width: 40em) {
-	header h1 {
-	text-align: left;
+	ul {
+	    margin: auto;
 	}
-	header a {
-		text-align: right;
-	}
-
 }
