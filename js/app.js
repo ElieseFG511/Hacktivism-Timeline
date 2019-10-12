@@ -28,13 +28,12 @@ $('a').click(function(event){
 // Copy pasted it
 
 //Drop Down menu
-// $('body').addClass('js');
+ $('body').addClass('js');
+
+ var $menu = $('#menu'), $menulink = $('.menu-link');
   
-// var $menu = $('#menu'),
-//     $menulink = $('.menu-link');
-  
-// $menulink.click(function() {
-//   $menulink.toggleClass('active');
-//   $menu.toggleClass('active');
-//   return false;
-// });
+ $menulink.click(function() {
+   $menulink.toggleClass('active');
+   $menu.toggleClass('active');
+   return false;
+ });
