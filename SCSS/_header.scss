@@ -1,17 +1,18 @@
 
 header{
-	text-align: center;
 	background-color: $light-blue;
 	padding: .75em 0;
+	overflow: visible;
 }
 
 header h1, a {
 	color: $dark-purple;
+	padding: .7 .5;
 }
 
-header menu-div {
-	text-align: center;
-}
+// header .menu-div {
+// 	text-align: center;
+// }
 
 header li a:hover {
 	background-color: $body-yellow;
@@ -19,15 +20,13 @@ header li a:hover {
 
 header img {
 	width: $mobile-header-img;
+	align: left;
 }
 
 @media (min-width: 40em) {
 	header img {
 	width: $header-img;
 	} 
-}
-
-@media (min-width: 40em) {
 	ul {
 	    margin: auto;
 	}

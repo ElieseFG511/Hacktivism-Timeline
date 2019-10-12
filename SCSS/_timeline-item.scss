@@ -1,8 +1,19 @@
 
 .introduction {
 	margin: 2em;
-	height: 100vh;
-	a {
+ 	a {
+		color: $dark-purple;
+		background-color: $link-red;
+		padding: 0 1%;
+	}
+	a:hover {
+		color: $link-red;
+		background-color: lighten($dark-purple,10%);
+	}
+ }
+
+ .continue-status{
+ 	a {
 		color: $dark-purple;
 		background-color: $link-red;
 		padding: 0 1%;
@@ -16,6 +27,7 @@
 @media (min-width: 40em) {
 	.introduction {
 		margin: 3em;
+		height: 100vh
 	}
 
 	.article {

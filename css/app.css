@@ -24,8 +24,7 @@ h1, h2, h3, p, a {
   p {
     font-size: 18px; } }
 .introduction {
-  margin: 2em;
-  height: 100vh; }
+  margin: 2em; }
   .introduction a {
     color: #180f24;
     background-color: #FD1D53;
@@ -34,9 +33,18 @@ h1, h2, h3, p, a {
     color: #FD1D53;
     background-color: #301e48; }
 
+.continue-status a {
+  color: #180f24;
+  background-color: #FD1D53;
+  padding: 0 1%; }
+.continue-status a:hover {
+  color: #FD1D53;
+  background-color: #301e48; }
+
 @media (min-width: 40em) {
   .introduction {
-    margin: 3em; }
+    margin: 3em;
+    height: 100vh; }
 
   .article {
     margin: 1em; } }
@@ -50,6 +58,8 @@ h1, h2, h3, p, a {
   background-color: #241736; }
 
 a.menu-link {
+  position: relative;
+  float: right;
   display: block;
   padding: 1em; }
 
@@ -88,7 +98,8 @@ nav .menu {
     display: none; }
 
   .js nav[role=navigation] {
-    max-height: none; }
+    max-height: none;
+    overflow: visible; }
 
   nav[role=navigation] ul {
     margin: 0 0 0 -0.25em;
@@ -101,26 +112,25 @@ nav .menu {
   nav[role=navigation] li a {
     border: 0; } }
 header {
-  text-align: center;
   background-color: #2DE2E6;
-  padding: .75em 0; }
+  padding: .75em 0;
+  overflow: visible; }
 
 header h1, a {
-  color: #180f24; }
-
-header menu-div {
-  text-align: center; }
+  color: #180f24;
+  padding: .7 .5; }
 
 header li a:hover {
   background-color: #F9C80E; }
 
 header img {
-  width: 150px; }
+  width: 150px;
+  align: left; }
 
 @media (min-width: 40em) {
   header img {
-    width: 250px; } }
-@media (min-width: 40em) {
+    width: 250px; }
+
   ul {
     margin: auto; } }
 body {
@@ -146,7 +156,7 @@ body .article img {
   background-color: #F9C80E; }
 
 @media (min-width: 40em) {
-  body .timeline-item img {
+  body .article img {
     width: 400px;
     height: 400px; } }
 footer {
